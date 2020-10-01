@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+
+import Layout from './components/Layout'
+
 import './index.css';
 
-function Mostra(){
-  return(
-    
-  );
-}
 
 
 ReactDOM.render(
-  <Mostra/>,
+  <BrowserRouter>
+    <Switch>
+      <Route path='/' component={Layout} />
+    </Switch>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 
 
-serviceWorker.unregister();
