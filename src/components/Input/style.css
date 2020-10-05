@@ -1,0 +1,13 @@
+.input-block{
+    margin: 2% 0 0 5%;
+}
+
+.input-block input{
+    background-color: rgba(0,15,86,0.5);
+    color:gray;
+
+    width: 30%;
+    height: 20px;
+
+    border-radius: 0.8rem;
+}

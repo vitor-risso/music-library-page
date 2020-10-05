@@ -6,8 +6,11 @@ export const Button = styled.button`
 
     display: flex;
     align-items: center;
+    justify-content:center;
    
-   margin-top: 20%;
+    margin-top: 20%;
+
+    cursor:pointer;
 
  img{
      width: 30%;
@@ -25,7 +28,6 @@ export const Button = styled.button`
         display:flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content:space-around;
     }
 `
 
@@ -42,7 +44,21 @@ export const Edit = styled.p`
 
 export const SettingIcon= styled(Settings)`
     color:gray;
-    cursor:pointer;
+
     width: 5%;
-    margin-top: 5%;
+    margin-top: 7%;
+`
+
+export const Separator = styled.div`
+
+    margin:25%;
+
+    height: 8px;
+    width: 50%;
+
+    border-bottom: 2px solid rgb(32, 15, 86);
+
+    margin-top: 100px;
+    margin-bottom: 20px; 
+    
 `
